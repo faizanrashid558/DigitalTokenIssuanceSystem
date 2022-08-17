@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_maine">
+
+    <TextView
+        android:id="@+id/txtTokendetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cardView3"
+        android:text="Customer Token Status"
+        android:layout_marginBottom="10dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#42B846"
+        android:layout_centerHorizontal="true"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="370dp"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"
+        android:elevation="10dp"
+        app:cardCornerRadius="15dp">
+
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="400dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/lblCname"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="Customer Name"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/txtCname"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:gravity="center_horizontal"
+                    android:text="--"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/lblCEmail"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="Email"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    tools:ignore="Suspicious0dp" />
+
+                <TextView
+                    android:id="@+id/txtCEmail"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:gravity="center_horizontal"
+                    android:text="--"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    tools:ignore="Suspicious0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/lblCPhone"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="Phone No"
+                    android:drawableRight="@drawable/ic_calle"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    tools:ignore="Suspicious0dp" />
+
+                <TextView
+                    android:id="@+id/txtCPhone"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:gravity="center_horizontal"
+                    android:text="--"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    tools:ignore="Suspicious0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/lblCTokenNo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="Token No"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    tools:ignore="Suspicious0dp" />
+
+                <TextView
+                    android:id="@+id/txtCTokenNo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:gravity="center_horizontal"
+                    android:text="--"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    tools:ignore="Suspicious0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/lblCTokenType"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="Token Type"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    tools:ignore="Suspicious0dp" />
+
+                <TextView
+                    android:id="@+id/txtCTokenType"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:gravity="center_horizontal"
+                    android:text="--"
+                    android:textColor="#43B148"
+                    android:textSize="15sp"
+                    tools:ignore="Suspicious0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/lblCPayment"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="Payment"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    tools:ignore="Suspicious0dp" />
+
+                <TextView
+                    android:id="@+id/txtCPayment"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:gravity="center_horizontal"
+                    android:text="--"
+                    android:textColor="#43B148"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    tools:ignore="Suspicious0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/lblCTokenStatus"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="Status"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    tools:ignore="Suspicious0dp" />
+
+                <TextView
+                    android:id="@+id/txtCTokenStatus"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:gravity="center_horizontal"
+                    android:text="--"
+                    android:textColor="#FF5722"
+                    android:textSize="15sp"
+                    tools:ignore="Suspicious0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/lblCDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="Date &amp; time"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    tools:ignore="Suspicious0dp" />
+
+                <TextView
+                    android:id="@+id/txtCDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:gravity="center_horizontal"
+                    android:text="--"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:ignore="Suspicious0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:visibility="invisible">
+
+                <TextView
+                    android:id="@+id/lblCUid"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="Uid"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    tools:ignore="Suspicious0dp" />
+
+                <TextView
+                    android:id="@+id/txtCUid"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:gravity="center_horizontal"
+                    android:text="--"
+                    android:textColor="#FF5722"
+                    android:textSize="15sp"
+                    tools:ignore="Suspicious0dp" />
+            </LinearLayout>
+        </LinearLayout>
+        String date = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault()).format(new Date());
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/linlay"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cardView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/complete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_ok"
+            android:text="Completed"
+            android:onClick="completefail"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/failed"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_ok"
+            android:backgroundTint="#F44336"
+            android:text="Failed"
+            android:onClick="completefail"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnLoad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load"
+        android:drawableRight="@drawable/ic_load"
+        android:paddingRight="5dp"
+        android:layout_below="@+id/linlay"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_ok"/>
+
+</RelativeLayout>

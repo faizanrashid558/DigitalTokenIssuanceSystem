@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/employee_signin"
+    android:paddingLeft="60dp"
+    android:paddingRight="60dp"
+    tools:context=".Employee.EmployeeSigninActivity">
+
+    <TextView
+        android:id="@+id/txtTitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="96dp"
+        android:gravity="center|center_horizontal"
+        android:text="Digital Token Issuance"
+        android:textColor="#2F9F33"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_horizontal"
+        android:text="System"
+        android:textColor="#2F9F33"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtTitle1"/>
+
+    <TextView
+        android:id="@+id/txtLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center|center_horizontal"
+        android:text="Login"
+        android:textColor="#3C3A3A"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/txtTitle2"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/txtIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Hey Employee! Please login"
+        android:textColor="#3C3838"
+        android:layout_below="@id/txtLogin"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Email"
+        android:textColor="#FD5C5C"
+        android:textStyle="bold"
+        android:layout_below="@id/txtIntro"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/edtEEmail"
+        android:layout_width="261dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/custom_edittext"
+        android:ems="10"
+        android:drawableRight="@drawable/ic_email"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:textColorHint="#575555"
+        android:textSize="17dp"
+        android:layout_below="@id/txtEmail"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/txtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Password"
+        android:textColor="#FD5C5C"
+        android:textStyle="bold"
+        android:layout_below="@id/edtEEmail"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/edtEPassword"
+        android:layout_width="261dp"
+        android:layout_height="38dp"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:drawableRight="@drawable/ic_password"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="#575555"
+        android:textSize="17dp"
+        android:layout_below="@id/txtPassword"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/btnESignin"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/custom_button"
+        android:text="Sign In"
+        android:textSize="16dp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        app:backgroundTint="#FD5C5C"
+        android:layout_below="@id/edtEPassword"
+        android:layout_centerHorizontal="true"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/txtCSignin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Login as Customer"
+        android:textColor="#D81313"
+        android:textStyle="bold"
+        android:layout_below="@id/btnESignin"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

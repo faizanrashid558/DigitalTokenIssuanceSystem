@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1000391009227",
+    "project_id": "dtis-5e5ab",
+    "storage_bucket": "dtis-5e5ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000391009227:android:3986a4d704fd2326dc4c4e",
+        "android_client_info": {
+          "package_name": "com.faizanrashid.digitaltokenissuancesystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000391009227-qfo5d2278j3utkkmd6mds75n9mg0o0eo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi8i7-3x0MlRCHmoFDs_1unFN2-ibP-j8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000391009227-qfo5d2278j3utkkmd6mds75n9mg0o0eo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

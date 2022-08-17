@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Faizan/Documents/DigitalTokenIssuanceSystem/app/src/main/res/layout/activity_customer_dashboard.xml" value="0.21" />
+        <entry key="..\:/Users/Faizan/Documents/DigitalTokenIssuanceSystem/app/src/main/res/layout/content_main.xml" value="0.25" />
+        <entry key="..\:/Users/Faizan/Documents/DigitalTokenIssuanceSystem/app/src/main/res/layout/content_maine.xml" value="0.25" />
+        <entry key="..\:/Users/FaizanRashid/AndroidStudioProjects/DigitalTokenIssuanceSystem/app/src/main/res/drawable-v24/ic_applytoken.xml" value="0.143" />
+        <entry key="..\:/Users/FaizanRashid/AndroidStudioProjects/DigitalTokenIssuanceSystem/app/src/main/res/drawable/ic_calle.xml" value="0.1975" />
+        <entry key="..\:/Users/FaizanRashid/AndroidStudioProjects/DigitalTokenIssuanceSystem/app/src/main/res/drawable/icon_menu.xml" value="0.143" />
+        <entry key="..\:/Users/FaizanRashid/AndroidStudioProjects/DigitalTokenIssuanceSystem/app/src/main/res/drawable/shapedesign.xml" value="0.155" />
+        <entry key="..\:/Users/FaizanRashid/AndroidStudioProjects/DigitalTokenIssuanceSystem/app/src/main/res/font/aclonica.xml" value="0.234375" />
+        <entry key="..\:/Users/FaizanRashid/AndroidStudioProjects/DigitalTokenIssuanceSystem/app/src/main/res/layout/activity_complaint.xml" value="0.18568840579710144" />
+        <entry key="..\:/Users/FaizanRashid/AndroidStudioProjects/DigitalTokenIssuanceSystem/app/src/main/res/layout/activity_customer_dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/FaizanRashid/AndroidStudioProjects/DigitalTokenIssuanceSystem/app/src/main/res/layout/activity_customer_feedback.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/FaizanRashid/AndroidStudioProjects/DigitalTokenIssuanceSystem/app/src/main/res/layout/activity_customer_history.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/FaizanRashid/AndroidStudioProjects/DigitalTokenIssuanceSystem/app/src/main/res/layout/activity_employee_complaint.xml" value="0.18568840579710144" />
+        <entry key="..\:/Users/FaizanRashid/AndroidStudioProjects/DigitalTokenIssuanceSystem/app/src/main/res/layout/activity_main.xml" value="0.18568840579710144" />
+        <entry key="..\:/Users/FaizanRashid/AndroidStudioProjects/DigitalTokenIssuanceSystem/app/src/main/res/layout/content_main.xml" value="0.25" />
+        <entry key="..\:/Users/FaizanRashid/AndroidStudioProjects/DigitalTokenIssuanceSystem/app/src/main/res/layout/content_maine.xml" value="0.22" />
+        <entry key="..\:/Users/FaizanRashid/AndroidStudioProjects/DigitalTokenIssuanceSystem/app/src/main/res/layout/item_layoutcustomerfeedback.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/FaizanRashid/AndroidStudioProjects/DigitalTokenIssuanceSystem/app/src/main/res/layout/itemlayout_history.xml" value="0.33" />
+        <entry key="..\:/Users/FaizanRashid/AndroidStudioProjects/DigitalTokenIssuanceSystem/app/src/main/res/layout/nav_header_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/FaizanRashid/AndroidStudioProjects/DigitalTokenIssuanceSystem/app/src/main/res/layout/samplelayouthistory.xml" value="0.203125" />
+        <entry key="..\:/Users/FaizanRashid/AndroidStudioProjects/DigitalTokenIssuanceSystem/app/src/main/res/layout/singlerow.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/FaizanRashid/AndroidStudioProjects/DigitalTokenIssuanceSystem/app/src/main/res/menu/activity_employee_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/FaizanRashid/AndroidStudioProjects/DigitalTokenIssuanceSystem/app/src/main/res/menu/activity_main_drawer.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.faizanrashid.digitaltokenissuancesystem">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/tokenimage"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/tokenimage"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="31">
+        <activity android:name=".Customer.CustomerFeedbacks.CustomerFeedback"></activity>
+        <activity android:name=".Employee.EmployeeComplaint.EmployeeComplaint"
+            android:label="Complaint Lists"
+            android:parentActivityName=".Employee.EmployeeDashboard"/>
+        <activity android:name=".Customer.Complaint" />
+        <activity
+            android:name=".Setting"
+            android:label="Settings" />
+        <activity
+            android:name=".Employee.EmployeeAccount"
+            android:label="Account Details"
+            android:parentActivityName=".Employee.EmployeeDashboard" />
+        <activity
+            android:name=".Employee.EmployeeDashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Customer.ForgotPassword"
+            android:label="Forgot Password"
+            android:parentActivityName=".Customer.CustomerSigninActivity" />
+        <activity android:name=".Splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Customer.SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Employee.Feedback"
+            android:exported="false" />
+        <activity
+            android:name=".Employee.EmployeeSigninActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Customer.CustomerSigninActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Customer.CustomerAccount"
+            android:exported="false"
+            android:label="Account Details"
+            android:parentActivityName=".Customer.CustomerDashboard" />
+        <activity
+            android:name=".Customer.ActivityToken"
+            android:exported="false"
+            android:label="Select type"
+            android:parentActivityName=".Customer.CustomerDashboard" />
+        <activity
+            android:name=".Customer.CustomerDashboard"
+            android:exported="true"
+            android:label="Dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

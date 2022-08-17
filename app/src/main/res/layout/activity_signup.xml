@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="60dp"
+    android:paddingRight="60dp"
+    tools:context=".Customer.SignupActivity">
+    <TextView
+        android:id="@+id/txtSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center|center_horizontal"
+        android:text="Sign Up"
+        android:textColor="#3C3A3A"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="40dp"
+        android:elevation="2dp"
+        android:src="@drawable/user"
+        app:civ_border_color="#3F51B5"
+        app:civ_border_width="2dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtSignup"/>
+    <TextView
+        android:id="@+id/txtwarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="User must upload an image"
+        android:textColor="#F40E0E"
+        android:layout_below="@id/profile_image"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Name"
+        android:textColor="#FD5C5C"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtwarning"/>
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="261dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/custom_edittext"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:drawableRight="@drawable/ic_name"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:textColorHint="#575555"
+        android:textSize="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtName" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Email"
+        android:textColor="#FD5C5C"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edtName" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="261dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/custom_edittext"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:drawableRight="@drawable/ic_email"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:textColorHint="#575555"
+        android:textSize="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtEmail" />
+
+    <TextView
+        android:id="@+id/txtPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Password"
+        android:textColor="#FD5C5C"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edtEmail" />
+
+    <EditText
+        android:id="@+id/edtPass"
+        android:layout_width="261dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/custom_edittext"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:drawableRight="@drawable/ic_password"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:textColorHint="#575555"
+        android:textSize="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtPass" />
+
+    <TextView
+        android:id="@+id/txtPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Phone"
+        android:textColor="#FD5C5C"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edtPass" />
+
+    <EditText
+        android:id="@+id/edtPhone"
+        android:layout_width="261dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/custom_edittext"
+        android:ems="10"
+        android:hint="03**-*******"
+        android:inputType="phone"
+        android:drawableRight="@drawable/ic_phone"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:textColorHint="#575555"
+        android:textSize="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtPhone" />
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_button"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        app:backgroundTint="#FD5C5C"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/edtPhone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:id="@+id/txtAccount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_marginBottom="16dp"
+            android:text="Have an Account?"
+            android:textColor="#4C4747"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtSignin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:layout_marginBottom="16dp"
+            android:paddingLeft="20dp"
+            android:text="Sign In"
+            android:textColor="#FD5C5C"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
